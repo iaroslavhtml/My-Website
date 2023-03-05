@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300:400:500:600:700:800:900&display=swap');
+
+*
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body 
+{
+    min-height: 100vh; 
+background-color: rgb(78, 54, 137);
+transition: smooth(23px);
+
+}
+header 
+{ 
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .Technosite
+{ 
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size:2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{ 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header ul li
+{ 
+list-style: none;
+margin-left: 20px;
+}
+header ul li a
+{ 
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{ 
+    background: #fff;
+    color: #2b1055;
+}
+#text
+{ 
+position: absolute;
+padding-left: 550px;
+padding-top: 300px;
+color:#fff;
+font-size: 30px;
+}
+span 
+{ 
+    color:#fff;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.Explore-button
+{ 
+    background-color: #fff;
+    border: none;
+    margin-left: 570px;
+    margin-top: 430px;
+    height:40px;
+    width: 140px;
+    border-radius: 20px;
+    color:#2b1055;
+    font-size: 20px;
+    cursor: pointer;
+}
+.Explore-button:hover
+{ 
+    box-shadow: 10px 10px 30px black;
+} 
+
+
